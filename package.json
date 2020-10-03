@@ -19,28 +19,37 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.0.0",
-    "@vue/composition-api": "^1.0.0-beta.14",
-    "apexcharts": "^3.15.5",
-    "echarts": "^4.6.0",
-    "node-sass": "^4.14.1",
-    "quasar": "^1.0.0",
-    "serialize-javascript": "^5.0.1",
-    "vue-apexcharts": "^1.5.2",
-    "vue-echarts-v3": "^2.0.1",
-    "vuedraggable": "^2.23.2",
-    "yargs-parser": "^20.2.0"
+    "@quasar/extras": "1.9.7",
+    "@vue/composition-api": "1.0.0-beta.14",
+    "apexcharts": "3.22.0",
+    "echarts": "4.9.0",
+    "node-sass": "4.14.1",
+    "quasar": "1.14.1",
+    "serialize-javascript": "5.0.1",
+    "vue-apexcharts": "1.6.0",
+    "vue-echarts-v3": "2.0.1",
+    "vuedraggable": "2.24.1",
+    "workbox-webpack-plugin": "5.1.4",
+    "yargs-parser": "20.2.1"
   },
   "devDependencies": {
-    "@quasar/app": "^1.0.0",
-    "@quasar/quasar-app-extension-qcalendar": "^1.5.3"
+    "@quasar/app": "2.1.1",
+    "@quasar/quasar-app-extension-qcalendar": "2.3.1"
   },
   "engines": {
-    "node": ">= 10.18.1",
+    "node": ">= 12.8.4",
     "npm": ">= 6.13.4",
-    "yarn": ">= 1.21.1"
+    "yarn": ">= 1.22.1"
   },
   "browserslist": [
-    "last 1 version, not dead, ie >= 11"
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
   ]
 }
