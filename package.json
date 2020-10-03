@@ -8,6 +8,14 @@
   "author": "Mayank Patel",
   "private": true,
   "scripts": {
+    "dev:spa": "quasar dev",
+    "dev:pwa": "quasar dev -m pwa",
+    "dev:ssr": "quasar dev -m ssr",
+    "build:spa": "quasar build",
+    "build:pwa": "quasar build -m pwa",
+    "build:ssr": "quasar build -m ssr",
+    "serve:pwa": "quasar serve ./dist/pwa",
+    "serve:ssr": "cd ./dist/ssr && yarn start",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
